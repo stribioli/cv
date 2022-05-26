@@ -203,7 +203,7 @@
 		#1 % Dates
 	}
 	&\parbox[t]{0.8\textwidth}{
-		\textbf{#2} @ \textbf{#3}
+		\textbf{#2} at \textbf{#3}
 		\\
 		\textcolor{lightgrey}{#4}
 		\vspace{0.5em}\\
