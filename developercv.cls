@@ -34,7 +34,7 @@
 %----------------------------------------------------------------------------------------
 
 \setlength{\parindent}{0mm} % Suppress paragraph indentation
-%\setlength{\parskip}{1em}
+
 
 \usepackage[hidelinks]{hyperref} % Required for links but hide the default boxes around links
 
@@ -175,7 +175,9 @@
 
 % Command to output section title headings
 \newcommand{\cvsect}[1]{% The only parameter is the section text
-	\vspace{\baselineskip} % Whitespace before the section title
+	% Whitespace before the section title
+	\vspace{\baselineskip}
+	\vspace{\baselineskip}
 	\colorbox{black}{\textcolor{white}{\MakeUppercase{\textbf{#1}}}}\\% Section title
 }
 
